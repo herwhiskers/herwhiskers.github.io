@@ -1,0 +1,4 @@
+baseURL = 'http://herwhiskers.github.io/'
+languageCode = 'zh-cn'
+title = 'A Purrception'
+theme = 'stack'
