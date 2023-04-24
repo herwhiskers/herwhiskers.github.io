@@ -8,7 +8,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: /icons8-cat-32.ico
 
     footer:
         since:
@@ -25,7 +25,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: /img/thebell.JPG
 
     article:
         math: false

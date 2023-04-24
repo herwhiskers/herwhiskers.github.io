@@ -7,6 +7,9 @@
         {{ end }}
         {{ now.Format "2006" }} {{ .Site.Title }}
     </section>
+
+    <section class='credit'>
+
     
     <section class="powerby">
         {{ with .Site.Params.footer.customText }}
@@ -17,7 +20,9 @@
         {{- $Theme := printf `<b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="%s">Stack</a></b>` $ThemeVersion -}}
         {{- $DesignedBy := `<a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>` -}}
 
+
         {{ T "footer.builtWith" (dict "Generator" $Generator) | safeHTML }} <br />
         {{ T "footer.designedBy" (dict "Theme" $Theme "DesignedBy" $DesignedBy) | safeHTML }}
+        <br><a target="_blank" href="https://icons8.com/icon/C6Z1BNfFZ4xL/cat">Cat icon by Icons8</a></br>
     </section>
 </footer>
